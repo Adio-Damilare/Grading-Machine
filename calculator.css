@@ -10,7 +10,7 @@
 
 .calculator{
     margin: 10px 500px;
-    border: 1px solid red;
+    border: 1px solid;
     align-self: center;
     box-shadow: 5px 05px 01px ;
     border-radius: 20px;
