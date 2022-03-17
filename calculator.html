@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <i class="fa fa-whatsapp"></i> CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+
+
+        <div class="paragraph">
+            <div class="time">
+                <input type="time">
+            
+            </div>
+
+        </div>
+
+
+
+        <div class="screen">
+            <div class="norm">
+                <p>
+                    NORM
+                </p>
+                <p id="p">
+                    MATH
+                </p>
+                <p id="p">
+                    FRAC
+                </p>
+            </div>
+            <div class="mainscreen">
+                <input id="number1" type="text">
+                <div class="flex1">
+                    <input type="text" id="answer" placeholder="Answer">
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <section id="section1">
+
+
+            <div class="setting" >
+                <button id="the1">
+                        
+                </button>
+                <button id="the2">
+
+                </button>
+                <button id="the3">
+                    ∑
+                </button>
+                <button id="the4">
+
+                </button>
+                <button id="the5">
+                    -
+                </button>
+                <button id="the6">
+                    +
+                </button>
+                <button id="the7">
+                    DEG
+                </button>
+                <button id="the8">
+                    RAD
+                </button>
+                
+            </div>
+
+
+
+            <div class="first-keys">
+                <button class="key1" style="background-color: yellow; color: #000;">
+                    SHIFT
+                </button>
+                <button class="key2" style="background-color: blueviolet;">
+                    ALPHA
+                </button>
+                <button class="key3" >
+                    ←
+                </button>
+                <button class="key4">
+                    →
+                </button>
+                <button class="key5">
+                    MODE
+                </button>
+                <button class="key6" style="font-style: italic;">
+                    2nd
+                </button>
+            </div> 
+
+
+            <div class="second-keys" >
+                <div class="key" id="stuborn">
+                   <p>
+                    <span style="color: yellow; font-size: 10px;" >
+                        SOLVE
+                    </span> 
+                    <span style="color: blueviolet; font-size: 10px;">
+                        =
+                    </span>
+                   </p>
+                    <button>
+                        CALC
+                    </button>
+                </div>
+                <div class="key">
+                  <p> 
+                        <span style="color: yellow; font-size: 13px;"> 
+                        d/dxs
+                        </span> 
+                        <span style="color: blueviolet;">
+                        :
+                        </span>
+                    </p>
+                    <button>∫dx</button>
+                </div>
+
+
+
+                <div class="key">
+                    
+                    <button id="margin">
+                        ∆
+                    </button>
+                </div>
+
+
+                <div class="key"> 
+                    <button id="margin">
+                        ∇
+                    </button>
+                </div>
+
+                
+                <div class="key">
+                    <p>
+                        <span style="color: yellow;">
+                            x!
+                        </span>
+                    </p>
+                    <button>
+                        x<sup>-1</sup>
+                    </button>
+                </div>
+
+
+                <div class="key" id="stuborn">
+                   <p >
+                       <span style="color: yellow; font-size: 9px;">
+                        ∑
+                        </span> 
+                       <span style="color: blueviolet;font-size: 10px;">
+                        n
+                        </span>
+                    </p>
+                    <button>
+                        log <sub>a</sub>x
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="third-keys">
+                <div class="key" id="born">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;"> 
+                            a<sup>b</sup>/c
+                        </span>
+                        <span style="color: blueviolet; font-size: 10px;">
+                            ÷R
+                        </span>
+                    </p>
+                    <button>
+                        <sup>n</sup>/<sub>n</sub>
+                    </button>
+                </div>
+                <div class="key" id="kew">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            <sup>3</sup>√<sub>n</sub>
+                        </span> 
+                        <span style="color:blueviolet; font-size: 10px;">
+                            mod
+                        </span>
+                    </p>
+                    <button>
+                        √<sub>n</sub>
+                    </button>
+                </div>
+                <div class="key" id="las">
+                    <p id="flex">
+                        <span style="color: yellow; font-size: 10px;">
+                            x<sup>3</sup>
+                        </span>
+                    </p>
+                    <button>
+                        x<sup>2</sup>
+                    </button>
+
+                </div>
+                <div class="key" id="lasts"> 
+                   <p id="flex">
+                        <span style="color: yellow; font-size: 10px;">
+                            <sup>n</sup>√<sub>n</sub>
+                        </span>
+                   </p>
+                    <button>
+                        x<sup>n</sup>
+                    </button>
+                </div>
+                <div class="key" id="stuborn">
+                    <p id="flex">
+                        <span style="color: yellow; font-size: 10px;">
+                            10<sup>x</sup>
+                        </span>
+                    </p>
+                    <button>
+                        Log
+                    </button >
+                </div>
+                <div class="key" id="last">
+                   <p id="flex">
+                    <span style="color: yellow; font-size: 10px;">
+                        e<sup>n</sup>
+                    </span>
+                   </p>
+                    <button> 
+                        Ln
+                    </button>
+                </div>
+            </div> 
+           <div class="forth-keys">
+                <div class="key">
+                    <p id="span">
+                        <span style="color: yellow; font-size: 11px;">
+                            ⦟
+                        </span> 
+                        <span id="problem" style="color: blueviolet; font-size: 10px;">
+                            a
+                        </span>
+                    </p>
+                    <button>
+                        (-) 
+                    </button>
+                </div>
+                <div class="key">
+                    <p id="skew">
+                        <span style="color: yellow; font-size: 10px;">
+                            FACT
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px;">
+                            b
+                        </span>
+                    </p>
+                    <button>
+                        ◦ ' "
+                    </button>
+                </div>
+                <div class="key">
+                    <p id="skew">
+                        <span style="color: yellow; font-size: 10px;">
+                            Abs
+                        </span>
+                        <span style="color: blueviolet; font-size: 10px;">
+                            c
+                        </span>
+                    </p>
+                    <button>
+                        hyp
+                    </button>
+                </div>
+                <div class="key"> 
+                   <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            Sin<sup>-1</sup>
+                        </span> 
+                        <span id="problem" style="color: blueviolet; font-size: 10px;">
+                            d
+                        </span>
+                   </p>
+                    <button>
+                        Sin
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            Cos<sup>-1</sup>
+                        </span>
+                        <span id="problem" style="color: blueviolet; font-size: 10px;">
+                            e
+                        </span>
+                    </p>
+                    <button>
+                        Cos
+                    </button>
+                </div>
+                <div class="key">
+                   <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            Cos<sup>-1</sup>
+                        </span>
+                        <span id="problem" style="color:  blueviolet; font-size: 10px;">
+                            e
+                        </span>
+                   </p>
+                    <button>
+                        Tan
+                    </button>
+                </div>
+            </div> 
+            <div class="fifth-keys">
+                <div class="key" id="margin">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            STO
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px;">
+                            CLRv
+                        </span>
+                    </p>
+                    <button>
+                        RCL
+                    </button>
+                </div>
+                <div class="key" id="margin">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            i
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px;">
+                            cot
+                        </span>
+                    </p>
+                    <button>
+                        ENG
+                    </button>
+                </div>
+                <div class="key" id="flex">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            %
+                        </span>
+                        <span style="color: blueviolet; font-size: 10px; ">
+                            cot<sup>-1</sup>
+                        </span>
+                    </p>
+                    <button>(</button>
+
+                </div>
+                <div class="key" id="margin"> 
+                    <p>
+                        <span style="color: yellow; font-size: 10px; "> ,
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px; ">
+                            x
+                        </span>
+                    </p>
+                    <button>)</button>
+                </div>
+                <div class="key">
+                   <p>
+                        <span style="color: yellow; font-size:10px;">
+                            <sup>a</sup>/<sub>b</sub>→a<sup>b</sup>/<sub>c</sub>
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            y
+                        </span>
+                   </p>
+                    <button style="letter-spacing: 1.5px;">
+                        S⇋D
+                    </button>
+                </div>
+                <div class="key" id="margin">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            M-
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            m
+                        </span>
+                    </p>
+                    <button>
+                        M+
+                    </button>
+                </div>
+            </div> 
+        </section>
+        <section id="section2">
+            <div class="first-keys">
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            CONST
+                        </span> 
+                    </p>
+                    <button  style="font-size: 20px;" onclick="calculate(7)">
+                        7
+                    </button>
+                </div>
+                <div class="key">
+                       <p>
+                            <span style="color: yellow; font-size:10px;">
+                                CONV
+                            </span>
+                       </p>
+                        <button  style="font-size: 20px;" onclick="calculate(8)">
+                            8
+                        </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size: small;">
+                            Limit
+                        </span> 
+                        <span id="p" style="color: blueviolet;    font-size: small;">
+                            ∞
+                        </span>
+                    </p>
+                    <button style="font-size: 20px;" onclick="calculate(9)">
+                        9
+                    </button>
+
+                </div>
+                <div class="key" id="margin" > 
+                    <button style="background-color: coral;font-size: 20px; color: #000;" onclick="del()">
+                        DEL
+                    </button>
+                </div>
+                <div class="key" >
+                    <p>
+                        <span style="color: yellow;font-size: 10px;">
+                            CLR
+                        </span> 
+                        <span id="p" style="color: yellow; font-size: 10px;">
+                                ALL
+                        </span>
+                    </p>
+                    <button style="background-color: coral; font-size: 20px; color: #000;" onclick="clr()">
+                        AC
+                    </button>
+                </div>
+            </div>
+            <div class="second-key">
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            MATRIX
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            []
+                        </span>
+                    </p>
+                    <button onclick="calculate(4)"  style="font-size: 20px;">
+                        4
+                    </button>
+                </div>
+                <div class="key">
+                        <p>
+                            <span style="color: yellow; font-size:10px;">
+                                VECTOR
+                            </span>
+                        </p>
+                        <button onclick="calculate(5)" style="font-size: 20px;">
+                            5
+                        </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            FUNC
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            HELP
+                        </span>
+                    </p>
+                    <button onclick="calculate(6)" style="font-size: 20px;">
+                        6
+                    </button>
+
+                </div>
+                <div class="key" >
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            nPr
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            GCD
+                        </span> 
+                    </p>
+                    <button onclick="calculate('*')" style="font-size: 20px;">
+                      x
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            nCr
+                        </span> 
+                        <span style="color: blueviolet; font-size:10px;">
+                            LCM
+                        </span>
+                    </p> 
+                    <button onclick="calculate('/')" style="font-size: 20px;">
+                        ÷
+                    </button>
+                </div>
+            </div>
+            <div class="third-key">
+                <div class="key">
+                   <p id="paragraph">
+                        <span style="color: yellow; font-size:10px;">
+                            STAT
+                        </span>
+                   </p>
+                    <button onclick="calculate(1)" style="font-size: 20px;">
+                        1
+                    </button>
+                </div>
+                <div class="key">
+                        <p id="paragraph">
+                            <span style="color: yellow; font-size:10px;">
+                                CMPLX
+                            </span>
+                        </p>
+                        <button onclick="calculate(2)" style="font-size: 20px;">
+                            2
+                        </button>
+                </div>
+                <div class="key">
+                    <p id="paragraph">
+                        <span style="color: yellow; font-size:10px;">
+                            DISTR
+                        </span>
+                    </p> 
+                    <button onclick="calculate(3)" style="font-size: 20px;">
+                        3
+                    </button>
+
+                </div>
+                <div class="key" >
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            pol
+                        </span> 
+                        <span id="margin" style="color: blueviolet; font-size:10px;">
+                            Ceil
+                        </span> 
+                    </p>
+                    <button onclick="calculate('+')" style="font-size: 20px;">
+                        +
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            Rec
+                        </span> 
+                        <span id="margin" style="color:blueviolet; font-size:10px;">
+                            floor
+                        </span>
+                    </p> 
+                    <button onclick="calculate('-')">
+                        _
+                    </button>
+                </div>
+            </div>
+            <div class="forth-key">
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            COPY
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px;">
+                            PASTE
+                        </span> 
+                    </p>
+                    <button onclick="calculate(0)" style="font-size: 20px;">
+                        0
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;">
+                            Ran#
+                        </span> 
+                        <span style="color: blueviolet; font-size: 10px;">
+                            Ranint
+                        </span> 
+                    </p>
+                    <button onclick="calculate('.')" style="font-size: 20px;">
+                        .
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size:10px;"></span>
+                        <span style="color: blueviolet ; font-size: 10px; font-style: italic;">
+                            e
+                        </span> 
+                    </p>
+                    <button style="font-size: 20px;">
+                        EXP
+                    </button>
+                </div>
+                <div class="key" >
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            preAns
+                        </span>
+                    </p>
+                    <button>
+                        ANS
+                    </button>
+                </div>
+                <div class="key">
+                    <p>
+                        <span style="color: yellow; font-size: 10px;">
+                            History
+                        </span>
+                    </p>
+                    <button onclick="equalto()">
+                        =
+                    </button>
+                 </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        
+    document.getElementById(number1)
+    let calculate=(val)=>{
+        number1.value=number1.value+val
+    }
+    function equalto(){
+        answer.value=eval(number1.value)
+    }
+    function del(){
+        number1.value =number1.value.slice(0,-1)
+    }
+    function clr(){
+        answer.value='0'
+    }
+
+     
+    </script>
+</body>
+</html>
